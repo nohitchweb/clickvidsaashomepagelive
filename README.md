@@ -12,6 +12,15 @@ This is a Next.js application for a SaaS landing page with authentication and se
 
 ## Setup Instructions
 
+### Option 1: Using Docker (Recommended)
+1. Clone the repository
+2. Run the application with Docker:
+   ```bash
+   docker-compose up
+   ```
+   This will start both the PostgreSQL database and the application.
+
+### Option 2: Manual Setup
 1. Clone the repository
 2. Install dependencies:
    ```bash
@@ -19,7 +28,7 @@ This is a Next.js application for a SaaS landing page with authentication and se
    ```
 
 3. Set up the database:
-   - Create a PostgreSQL database
+   - Install PostgreSQL locally
    - Update `.env` with your database credentials
    - Run the initialization script:
    ```bash
@@ -42,7 +51,7 @@ This is a Next.js application for a SaaS landing page with authentication and se
 
 ## Database Schema
 
-The application uses the following tables:
+The application uses PostgreSQL with the following tables:
 - `users` - User accounts
 - `sessions` - Active user sessions
 - `settings` - User-specific settings

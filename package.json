@@ -1,0 +1,27 @@
+{
+  "name": "clickvidsaaslanding",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@lucia-auth/adapter-drizzle": "^1.1.0",
+    "bcryptjs": "^3.0.2",
+    "drizzle-orm": "^0.44.5",
+    "next": "14.0.4",
+    "postgres": "^3.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "^4.1.9"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.17",
+    "@types/react": "18.3.24",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "5.9.2"
+  }
+}
